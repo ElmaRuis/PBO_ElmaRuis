@@ -176,4 +176,22 @@ public class Main {
                             System.out.print(">> ");
                             pil = Integer.parseInt(input.nextLine());
 
+                            System.out.print("\n");
+                            switch(pil){
+                                case 1:{
+                                    if(restaurants.size() > 0){
+                                        System.out.print("Data Restaurant :");
+                                        for(Restaurant restaurant : restaurants){
+                                            System.out.println("\nID      : " + restaurant.getId());
+                                            System.out.println("Nama    : " + restaurant.getNama());
+                                            System.out.println("Alamat  : " + restaurant.getAlamat());
+                                            if(restaurant.getMakanan().size() > 0){
+                                                System.out.println("Menu Makanan :");
+                                                for(int i=0; i < restaurant.getMakanan().size(); i++){
+                                                    System.out.println((i+1) + ". " + restaurant.getMakanan().get(i).getNama() + " ( " + restaurant.getMakanan().get(i).getHarga() + " )");
+                                                }
+                                            }else{
+                                                System.out.println("[!] Tidak Ada Menu Makanan");
+                                            }
+
 
