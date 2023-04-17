@@ -7,4 +7,13 @@ public class Order {
     private ArrayList<Integer> qtyMenuMinuman;
     private float jarak;
     private long total;
-}
+
+    public Order(){
+        //Default constructor
+        menuMakanan = new ArrayList<>();
+        qtyMenuMakanan = new ArrayList<>();
+        menuMinuman = new ArrayList<>();
+        qtyMenuMinuman = new ArrayList<>();
+    }
+
+
