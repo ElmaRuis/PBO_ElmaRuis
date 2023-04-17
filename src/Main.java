@@ -194,4 +194,82 @@ public class Main {
                                                 System.out.println("[!] Tidak Ada Menu Makanan");
                                             }
 
+                                            if(restaurant.getMakanan().size() > 0){
+                                                System.out.println("Menu Minuman :");
+                                                for(int i=0; i < restaurant.getMinuman().size(); i++){
+                                                    System.out.println((i+1) + ". " + restaurant.getMinuman().get(i).getNama() + " ( " + restaurant.getMinuman().get(i).getHarga() + " )");
+                                                }
+                                            }else{
+                                                System.out.println("[!] Tidak Ada Menu Minuman");
+                                            }
+                                        }
+                                    }else{
+                                        System.out.println("Data Restaurant Masih Kosong!");
+                                    }
+
+                                    break;
+                                }
+
+                                case 2:{
+                                    if(restaurants.size() > 0){
+                                        System.out.print("Masukkan ID Restaurant : ");
+                                        id = Integer.parseInt(input.nextLine());
+
+                                        index = -1;
+                                        for(int i=0; i<restaurants.size(); i++){
+                                            if(restaurants.get(i).getId() == id){
+                                                index = i;
+                                                break;
+                                            }
+                                        }
+
+                                        if(index != -1){
+                                            ArrayList<Menu> menu;
+                                            long total = 0;
+                                            Order order = new Order();
+                                            order.setIdRestaurant(restaurants.get(index).getId());
+
+                                            if(restaurants.get(index).getMakanan().size() > 0){
+                                                System.out.println("Menu Makanan :");
+                                                menu = restaurants.get(index).getMakanan();
+                                                for(int i=0; i<menu.size(); i++){
+                                                    System.out.println((i+1) + ". " + menu.get(i).getNama() + " ( " + menu.get(i).getHarga() + " )");
+                                                }
+                                                while(true){
+                                                    System.out.print("Ingin Memesan Menu Makanan [Y/N] : ");
+                                                    loop = input.nextLine().toUpperCase().charAt(0);
+
+                                                    if(loop == 'Y'){
+                                                        System.out.print("Masukkan Nomor Menu Makanan : ");
+                                                        id = Integer.parseInt(input.nextLine());
+
+                                                        if(id >= 1 && id <= menu.size()){
+                                                            id -= 1;
+
+                                                            order.addMenuMakanan(menu.get(id));
+
+                                                            while(true){
+                                                                System.out.print("Masukkan Kuantitas Pembelian : ");
+                                                                kuantitas = Integer.parseInt(input.nextLine());
+
+                                                                if(kuantitas <= 0){
+                                                                    System.out.println("[!] Kuantitas Pembelian Tidak Boleh Kurang atau Sama Dengan 0!");
+                                                                }else{
+                                                                    break;
+                                                                }
+                                                            }
+                                                            order.addQtyMenuMakanan(kuantitas);
+                                                            total += menu.get(id).getHarga() * order.getQtyMenuMakanan().get(order.getQtyMenuMakanan().size()-1);
+                                                            System.out.println("Berhasil Menambahkan Menu!");
+                                                        }else{
+                                                            System.out.println("Nomor Menu Tidak Valid!");
+                                                        }
+                                                    }else if(loop == 'N'){
+                                                        break;
+                                                    }
+                                                }
+                                            }
+
+
+
 
