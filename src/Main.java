@@ -168,3 +168,12 @@ public class Main {
                         }while(pil != 4);
                     }else if(username.equals("user") && password.equals("user")){
                         do{
+                            System.out.println("\n===Menu User===");
+                            System.out.println("1. Lihat Restaurant");
+                            System.out.println("2. Buat Pesanan");
+                            System.out.println("3. Lihat Pesanan");
+                            System.out.println("4. Kembali ke login");
+                            System.out.print(">> ");
+                            pil = Integer.parseInt(input.nextLine());
+
+
