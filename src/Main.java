@@ -126,3 +126,45 @@ public class Main {
 
                                     break;
                                 }
+
+                                case 3:{
+                                    System.out.print("Masukkan Id Restaurant yang ingin dihapus : ");
+                                    id = Integer.parseInt(input.nextLine());
+
+                                    index = -1;
+                                    for(int i=0; i<restaurants.size(); i++){
+                                        if(restaurants.get(i).getId() == id){
+                                            index = i;
+                                            break;
+                                        }
+                                    }
+
+                                    if(index != -1){
+                                        restaurants.remove(index);
+                                        System.out.println("Berhasil Menghapus Data Restraunt dengan ID " + id);
+                                    }else{
+                                        System.out.println("Gagal Menghapus Data Restaurant dengan ID " + id + ". ID Tidak ditemukan!");
+                                    }
+
+                                    break;
+                                }
+
+                                case 4:{
+                                    System.out.println("Kembali ke login ...");
+
+                                    break;
+                                }
+
+                                default:{
+                                    System.out.println("Pilihan Menu Admin Tidak Valid!");
+
+                                    break;
+                                }
+                            }
+
+                            if(pil != 4){
+                                System.out.print("\n");
+                            }
+                        }while(pil != 4);
+                    }else if(username.equals("user") && password.equals("user")){
+                        do{
