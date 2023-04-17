@@ -11,4 +11,21 @@ public class Menu {
             this.nama = nama;
             this.harga = harga;
         }
+        public String getNama() {
+            return nama;
+        }
+
+        public void setNama(String nama) {
+            this.nama = nama;
+        }
+
+        public long getHarga() {
+            return harga;
+        }
+
+        public void setHarga(long harga) {
+            this.harga = harga;
+        }
+    }
+
 
