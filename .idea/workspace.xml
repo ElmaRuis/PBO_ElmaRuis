@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb58a7e3-5ea7-4d19-93cd-07e4a22c1c71" name="Changes" comment="Tampilan Menu Restaurant">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PBO_Elma Ruis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Restaurant.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OX3Pfq6Ec3jtAqP9ggtMrQR7rT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb58a7e3-5ea7-4d19-93cd-07e4a22c1c71" name="Changes" comment="" />
+      <created>1681693078405</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681693078405</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Tampilan Restaurant">
+      <created>1681694073595</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681694073595</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Tampilan Menu Restaurant">
+      <created>1681694260097</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681694260097</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Tampilan Menu Restaurant">
+      <created>1681694289614</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681694289614</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Tampilan Restaurant">
+      <created>1681694308436</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681694308437</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Tampilan Restaurant">
+      <created>1681694499041</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681694499050</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Tampilan Restaurant">
+      <created>1681694551258</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681694551259</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Tampilan Restaurant">
+      <created>1681694608219</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681694608219</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Tampilan Restaurant">
+      <created>1681694918871</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681694918871</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Tampilan Restaurant">
+      <created>1681695268537</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681695268537</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Tampilan Restaurant">
+      <created>1681695458418</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681695458418</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Tampilan Main Restaurant">
+      <created>1681696355793</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681696355793</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Tampilan Order Restaurant">
+      <created>1681697214125</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681697214125</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Tampilan Order Restaurant">
+      <created>1681699241898</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681699241899</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Tampilan Menu Restaurant">
+      <created>1681706514518</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681706514518</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Tampilan Menu Restaurant">
+      <created>1681712653774</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681712653774</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tampilan Restaurant" />
+    <MESSAGE value="Tampilan Main Restaurant" />
+    <MESSAGE value="Tampilan Order Restaurant" />
+    <MESSAGE value="Tampilan Menu Restaurant" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tampilan Menu Restaurant" />
+  </component>
+</project>

@@ -44,3 +44,27 @@ public class Restaurant{
     public void setAlamat(String alamat) {
         this.alamat = alamat;
     }
+    public ArrayList<Menu> getMakanan() {
+        return makanan;
+    }
+
+    public void setMakanan(ArrayList<Menu> makanan) {
+        this.makanan = makanan;
+    }
+
+    public void addMakanan(Menu makanan) {
+        this.makanan.add(makanan);
+    }
+
+    public ArrayList<Menu> getMinuman() {
+        return minuman;
+    }
+
+    public void setMinuman(ArrayList<Menu> minuman) {
+        this.minuman = minuman;
+    }
+
+    public void addMinuman(Menu minuman) {
+        this.minuman.add(minuman);
+    }
+}
