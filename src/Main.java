@@ -371,6 +371,46 @@ public class Main {
                                     break;
                                 }
 
+                                default:{
+                                    System.out.println("Pilihan Menu Admin Tidak Valid!");
+
+                                    break;
+                                }
+                            }
+
+                            if(pil != 4){
+                                System.out.print("\n");
+                            }
+                        }while(pil != 4);
+                    }else{
+                        System.out.println("Username atau Password Salah!");
+                    }
+
+                    break;
+                }
+
+                case 2:{
+                    System.out.println("Keluar dari program ...");
+
+                    break;
+                }
+
+                default:{
+                    System.out.println("Pilihan Menu Utama Tidak Valid!");
+
+                    break;
+                }
+            }
+
+            if(pil != 2){
+                System.out.println();
+            }
+        }while(pil != 2);
+
+        input.close();
+    }
+}
+
 
 
 
