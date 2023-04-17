@@ -270,6 +270,110 @@ public class Main {
                                                 }
                                             }
 
+                                            if(restaurants.get(index).getMinuman().size() > 0){
+                                                System.out.println("Menu Minuman :");
+                                                menu = restaurants.get(index).getMinuman();
+                                                for(int i=0; i<menu.size(); i++){
+                                                    System.out.println((i+1) + ". " + menu.get(i).getNama() + " ( " + menu.get(i).getHarga() + " )");
+                                                }
+                                                while(true){
+                                                    System.out.print("Ingin Memesan Menu Minuman [Y/N] : ");
+                                                    loop = input.nextLine().toUpperCase().charAt(0);
+
+                                                    if(loop == 'Y'){
+                                                        System.out.print("Masukkan Nomor Menu Minuman : ");
+                                                        id = Integer.parseInt(input.nextLine());
+
+                                                        if(id >= 1 && id <= menu.size()){
+                                                            id -= 1;
+
+                                                            order.addMenuMinuman(menu.get(id));
+
+                                                            while(true){
+                                                                System.out.print("Masukkan Kuantitas Pembelian : ");
+                                                                kuantitas = Integer.parseInt(input.nextLine());
+
+                                                                if(kuantitas <= 0){
+                                                                    System.out.println("[!] Kuantitas Pembelian Tidak Boleh Kurang atau Sama Dengan 0!");
+                                                                }else{
+                                                                    break;
+                                                                }
+                                                            }
+                                                            order.addQtyMenuMinuman(kuantitas);
+                                                            total += menu.get(id).getHarga() * order.getQtyMenuMinuman().get(order.getQtyMenuMinuman().size()-1);
+                                                            System.out.println("Berhasil Menambahkan Menu!");
+                                                        }else{
+                                                            System.out.println("Nomor Menu Tidak Valid!");
+                                                        }
+                                                    }else if(loop == 'N'){
+                                                        break;
+                                                    }
+                                                }
+                                            }
+
+                                            while(true){
+                                                System.out.print("Masukkan Jarak Lokasi Antar (km) : ");
+                                                order.setJarak(Float.valueOf(input.nextLine()));
+
+                                                if(order.getJarak() <= 0){
+                                                    System.out.println("[!] Jarak Lokasi Antar Tidak Boleh Kurang atau Sama Dengan 0!");
+                                                }else{
+                                                    break;
+                                                }
+                                            }
+
+                                            order.setTotal(total);
+
+                                            System.out.println("Pesanan telah ditambahkan!");
+                                            orders.add(order);
+                                        }else{
+                                            System.out.println("Gagal Membuat Pesanan. Restaurant dengan ID " + id + " Tidak Ditemukan!");
+                                        }
+                                    }else{
+                                        System.out.println("Tidak Dapat Membuat Pesanan. Data Restaurant Masih Kosong!");
+                                    }
+
+                                    break;
+                                }
+
+                                case 3:{
+                                    if(orders.size() > 0){
+                                        System.out.print("Data Order :");
+                                        for(Order order : orders){
+                                            System.out.println("\nID Restaurant : " + order.getIdRestaurant());
+                                            System.out.println("Jarak Lokasi Antar : " + order.getJarak() + " km");
+                                            if(order.getMenuMakanan().size() > 0){
+                                                System.out.println("Menu Makanan :");
+                                                for(int i=0; i < order.getMenuMakanan().size(); i++){
+                                                    System.out.println((i+1) + ". " + order.getMenuMakanan().get(i).getNama() + " ( " + order.getMenuMakanan().get(i).getHarga() + " ) x " + order.getQtyMenuMakanan().get(i));
+                                                }
+                                            }
+
+                                            if(order.getMenuMinuman().size() > 0){
+                                                System.out.println("Menu Minuman :");
+                                                for(int i=0; i < order.getMenuMinuman().size(); i++){
+                                                    System.out.println((i+1) + ". " + order.getMenuMinuman().get(i).getNama() + " ( " + order.getMenuMinuman().get(i).getHarga() + " ) x " + order.getQtyMenuMinuman().get(i));
+                                                }
+                                            }
+
+                                            System.out.println("Total Order : " + order.getTotal());
+                                        }
+                                    }else{
+                                        System.out.println("Data Order Masih Kosong!");
+                                    }
+
+                                    break;
+                                }
+
+                                case 4:{
+                                    System.out.println("Kembali ke login ...");
+
+                                    break;
+                                }
+
+
+
+
 
 
 
