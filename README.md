@@ -6,7 +6,10 @@ Untuk cara kerja program, pertama akan ada inputan yang diharapkan sebagai penun
 Apabila berhasil login sebagai admin, maka akan ada beberapa menu yang bisa diakses. Yaitu menu untuk melihat restoran, menambah restoran, dan menghapus restoran. Untuk menambah restoran, kita harus menginputkan angka 2 (mengarah pada menu tambah restoran). Sedangkan untuk melihat restoran, kita harus menginputkan angka 1, dan angka 3 digunakan untuk menghapus restoran.
 Selanjutnya, apabila berhasil login sebagai user, maka akan ada beberapa menu yang dapat diakses, yaitu menu untuk melihat restoran, menambah pesanan, dan melihat detail pesanan. Pesanan hanya dapat dilakukan apabila restoran telah ditambahkan sebelumnya. Jika restoran belum ditambahkan pada menu admin, maka akan ada kalimat peringatan tidak adanya restoran yang ditampilkan sebagai output. Ketika pesanan berhasil dilakukan, barulah detail pesanan bisa diakses dengan menginputkan angka 3 (mengarah pada menu detail pesanan). Pada detail pesanan ini akan ditampilkan beberapa output yaitu makanan dan minuman yang dipesan beserta jumlahnya, serta total harga yang merupakan hasil dari total harga minuman yang dipesan dijumlahkan dengan total harga makanan yang dipesan.
 
+![RUN](https://user-images.githubusercontent.com/114675878/232798692-7350dcde-3674-49a5-b5b1-3b49495817b4.jpg)
+![RUN 2 ](https://user-images.githubusercontent.com/114675878/232798728-756b24f4-f239-4820-b35a-8e382b80677b.jpg)
+![RUN 3](https://user-images.githubusercontent.com/114675878/232798749-d14878ef-6be2-47b8-b01e-8ea0510494c9.jpg)
 
-<img width="1440" alt="Hasil Run" src="https://user-images.githubusercontent.com/114675878/232791466-910c205b-2349-4514-bb33-d07c57b7f7d9.png">
+
 
 ![UML](https://user-images.githubusercontent.com/114675878/232787304-30e6ac9e-7466-4f84-8f01-416bbcdb8d5f.jpeg)
