@@ -7,4 +7,6 @@ Apabila berhasil login sebagai admin, maka akan ada beberapa menu yang bisa diak
 Selanjutnya, apabila berhasil login sebagai user, maka akan ada beberapa menu yang dapat diakses, yaitu menu untuk melihat restoran, menambah pesanan, dan melihat detail pesanan. Pesanan hanya dapat dilakukan apabila restoran telah ditambahkan sebelumnya. Jika restoran belum ditambahkan pada menu admin, maka akan ada kalimat peringatan tidak adanya restoran yang ditampilkan sebagai output. Ketika pesanan berhasil dilakukan, barulah detail pesanan bisa diakses dengan menginputkan angka 3 (mengarah pada menu detail pesanan). Pada detail pesanan ini akan ditampilkan beberapa output yaitu makanan dan minuman yang dipesan beserta jumlahnya, serta total harga yang merupakan hasil dari total harga minuman yang dipesan dijumlahkan dengan total harga makanan yang dipesan.
 
 
+<img width="1440" alt="Hasil Run" src="https://user-images.githubusercontent.com/114675878/232791466-910c205b-2349-4514-bb33-d07c57b7f7d9.png">
+
 ![UML](https://user-images.githubusercontent.com/114675878/232787304-30e6ac9e-7466-4f84-8f01-416bbcdb8d5f.jpeg)
